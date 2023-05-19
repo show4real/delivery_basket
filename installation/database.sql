@@ -21,6 +21,9 @@ SET time_zone = "+00:00";
 --
 -- Database: `firewing_demo_stackfood_db`
 --
+DROP DATABASE IF EXISTS multi_food_db;
+CREATE DATABASE IF NOT EXISTS multi_food_db;
+USE multi_food_db;
 
 -- --------------------------------------------------------
 
